@@ -1,205 +1,316 @@
-🚀 K8s Games
 <div align="center">
-🎮 Learn Kubernetes by Playing in 3D
 
-Deploy Pods • Fix CrashLoopBackOff • Type Real kubectl Commands • Survive Production Incidents
+# ☸️ K8s Games
 
-<p align="center"> <img src="https://img.shields.io/badge/Kubernetes-3D%20Simulation-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" /> <img src="https://img.shields.io/badge/Three.js-WebGL-black?style=for-the-badge&logo=three.js" /> <img src="https://img.shields.io/badge/No%20Install-Play%20Instantly-success?style=for-the-badge" /> <img src="https://img.shields.io/badge/Open%20Source-Apache%202.0-orange?style=for-the-badge" /> </p>
-🌐 Play Online
-🎮 Main Game
-👉 Play K8s Games
-🧩 3D Architecture Designer
-👉 Open K8s Draw
+### Learn Kubernetes by Playing in a Real 3D Cluster Simulator
+
+<p align="center">
+  <a href="https://k8sgames.com">
+    <img src="https://img.shields.io/badge/🎮_Play_Now-K8s_Games-326CE5?style=for-the-badge" />
+  </a>
+  
+  <a href="https://k8sgames.com/draw">
+    <img src="https://img.shields.io/badge/🧩_Open-K8s_Draw-7C3AED?style=for-the-badge" />
+  </a>
+
+  <a href="https://github.com/rohitg00/k8sgames">
+    <img src="https://img.shields.io/github/stars/rohitg00/k8sgames?style=for-the-badge" />
+  </a>
+</p>
+
+---
+
+### 🚀 Deploy Pods • 🔥 Fix Incidents • 💻 Use Real kubectl Commands • 🎮 Learn by Playing
+
 </div>
-✨ What is K8s Games?
 
-K8s Games is an interactive 3D Kubernetes simulator that runs directly in your browser.
+---
 
-Learn Kubernetes visually by:
+# 🌐 Live Links
 
-🚀 Deploying applications
-🛠 Fixing real production incidents
-📦 Managing workloads
-⚡ Scaling deployments
-🔥 Handling outages
-💻 Running real kubectl commands
-🧠 Learning SRE troubleshooting workflows
+| Platform | Link |
+|---|---|
+| 🎮 K8s Games | https://k8sgames.com |
+| 🧩 K8s Draw | https://k8sgames.com/draw |
+| 📦 GitHub Repo | https://github.com/rohitg00/k8sgames |
 
-No signup. No installation. No cluster required.
+---
 
-🖼 Preview
-🎮 Kubernetes Game Simulation
-5
-🧩 K8s Draw — 3D Architecture Diagrams
-6
-⚡ Features
-🎯 Learn by Doing
-Real Kubernetes workflows
-Real-world incidents
-Real kubectl commands
-Interactive troubleshooting
-SRE-style debugging experience
-🎮 Multiple Game Modes
-Mode	Description
-🚀 Campaign	20 levels across networking, storage, workloads & production K8s
-🔥 Chaos Mode	Endless incidents until your cluster breaks
-🏗 Sandbox	Freely design clusters and get architecture scores
-⏱ Challenges	Timed outage & deployment scenarios
-🧩 K8s Draw
-A 3D Kubernetes Architecture Whiteboard
+# 🎮 What is K8s Games?
 
-Think Excalidraw for Kubernetes, but fully interactive and 3D.
+**K8s Games** is a modern **3D Kubernetes simulation platform** that runs entirely in your browser.
 
-Features
-🧱 Drag & drop K8s resources
-🔗 Connect workloads visually
-🏷 Rename and edit resources
-🧠 Auto-layout by architecture tiers
-📄 Export YAML
-🖼 Export PNG diagrams
-🔗 Share diagrams with URLs
-⚡ Real Kubernetes API versions
-☸️ Supported Kubernetes Resources
+Learn Kubernetes visually through:
 
-Supports 25+ Kubernetes resource types
+- ☸️ Real Kubernetes resources
+- 🔥 Production incidents
+- 🧠 SRE troubleshooting
+- 💻 Real `kubectl` commands
+- ⚡ Interactive architecture building
+- 🎯 Hands-on learning
 
-Workloads
-Pod
-Deployment
-ReplicaSet
-StatefulSet
-DaemonSet
-Job
-CronJob
-Networking
-Service
-Ingress
-NetworkPolicy
-Storage
-PVC
-PV
-StorageClass
-Configuration
-ConfigMap
-Secret
-Namespace
-Scaling & Reliability
-HPA
-PodDisruptionBudget
-ResourceQuota
-RBAC
-ServiceAccount
-Role
-ClusterRole
-RoleBinding
-ClusterRoleBinding
-🚨 Real Incident Simulation
+No cluster required.  
+No installation required.  
+No signup required.
 
-Practice troubleshooting production failures like a real SRE.
+---
 
-Included Incidents
-🔥 CrashLoopBackOff
-💥 OOMKilled
-📦 ImagePullBackOff
-🌐 DNS failures
-💾 PVC Pending
-⚠ Node NotReady
-🔒 Certificate expiry
-📈 HPA flapping
-🚧 Rollout failures
-🧠 API throttling
+# 🖼️ Platform Preview
+
+## 🎮 Kubernetes Simulation
+
+- 3D Kubernetes clusters
+- Real-time incidents
+- Interactive debugging
+- Visual resource relationships
+- Production-style troubleshooting
+
+---
+
+## 🧩 K8s Draw — 3D Architecture Designer
+
+Design Kubernetes architectures visually in 3D.
+
+### Features
+
+✅ Drag & Drop Resources  
+✅ Draw Connections  
+✅ Auto Architecture Layout  
+✅ Export YAML  
+✅ Export PNG  
+✅ Share Diagrams by URL  
+✅ Edit Labels & Replicas  
+✅ Namespace Support  
+
+---
+
+# ⚡ Core Features
+
+## ☸️ 25+ Kubernetes Resources
+
+### Workloads
+- Pod
+- Deployment
+- ReplicaSet
+- StatefulSet
+- DaemonSet
+- Job
+- CronJob
+
+### Networking
+- Service
+- Ingress
+- NetworkPolicy
+
+### Storage
+- PVC
+- PV
+- StorageClass
+
+### RBAC
+- ServiceAccount
+- Role
+- ClusterRole
+- RoleBinding
+- ClusterRoleBinding
+
+### Scaling & Reliability
+- HPA
+- ResourceQuota
+- PodDisruptionBudget
+
+---
+
+# 🚨 Real Production Incidents
+
+Practice troubleshooting real Kubernetes failures.
+
+| Incident | Description |
+|---|---|
+| 🔥 CrashLoopBackOff | Containers continuously crashing |
+| 💥 OOMKilled | Memory limit exceeded |
+| 📦 ImagePullBackOff | Image pull failures |
+| 🌐 DNS Failures | Service discovery issues |
+| 💾 PVC Pending | Storage provisioning failures |
+| ⚠️ Node NotReady | Node outages |
+| 🔒 Certificate Expiry | Expired TLS certificates |
+| 📈 HPA Flapping | Scaling instability |
+| 🚧 Rollout Failures | Broken deployments |
 
 …and many more.
 
-💻 Real kubectl Commands
+---
+
+# 💻 Real kubectl Experience
 
 Use actual Kubernetes commands directly inside the game.
 
+```bash
 get pods
+
 describe deployment nginx
+
 logs pod-1
+
 scale deployment nginx --replicas=3
+
 rollout status deployment nginx
+
 drain node-1
+```
 
-✅ Includes:
+### Includes
 
-Tab completion
-Resource inspection
-YAML viewer
-Logs viewer
-Scaling actions
-🕹 Controls
-Key / Action	Function
-/	Open kubectl command bar
-?	Help
-Space	Pause / Resume
-M	Metrics dashboard
-Esc	Back to menu
-1-9	Quick resource select
-Left Click	Select resource
-Left Drag	Move resource / rotate camera
-Right Drag	Pan
-Scroll	Zoom
-🧠 Architecture Advisor
+- ✅ Tab Completion
+- ✅ YAML Viewer
+- ✅ Logs Viewer
+- ✅ Scaling Actions
+- ✅ Resource Inspection
 
-Your cluster gets scored across:
+---
 
-High Availability
-Security
-Scalability
-Reliability
-Cost Optimization
-Production Readiness
+# 🎯 Game Modes
 
-Get instant feedback on your Kubernetes architecture.
+| Mode | Description |
+|---|---|
+| 🚀 Campaign | Learn Kubernetes through structured levels |
+| 🔥 Chaos Mode | Endless production incidents |
+| 🏗 Sandbox | Build any cluster freely |
+| ⏱ Challenges | Timed troubleshooting missions |
 
-🏆 Progression System
-🎖 40 achievements
-📈 30-level XP system
-🧠 Learn from beginner → CKA-ready
-⚙️ Tech Stack
-Technology	Usage
-Three.js r152	3D Rendering
-Tailwind CSS	UI Styling
-Vanilla ES6 Modules	Application Logic
-WebGL	Browser Graphics
-Highlights
-⚡ No build step
-📦 No dependencies
-🚀 Runs entirely in browser
-🧩 90+ files
-💻 ~50K lines of code
-🚀 Run Locally
+---
+
+# 🧠 Architecture Advisor
+
+Your cluster gets scored based on:
+
+- High Availability
+- Scalability
+- Security
+- Cost Optimization
+- Production Readiness
+- Reliability
+
+Get instant feedback like a real architecture review.
+
+---
+
+# 🏆 Progression System
+
+- 🎖 40 Achievements
+- 📈 30-Level XP System
+- 🧠 Beginner → CKA Ready Learning Path
+
+---
+
+# 🎮 Controls
+
+| Key | Action |
+|---|---|
+| `/` | kubectl command bar |
+| `?` | Help |
+| `Space` | Pause |
+| `M` | Metrics dashboard |
+| `Esc` | Back to menu |
+| `1-9` | Quick-select resource |
+
+---
+
+# ⚙️ Tech Stack
+
+| Technology | Usage |
+|---|---|
+| Three.js | 3D Rendering |
+| Tailwind CSS | UI |
+| Vanilla ES6 | Game Logic |
+| WebGL | Graphics |
+
+### Highlights
+
+- ⚡ No Build Step
+- 🚀 Browser-Based
+- 📦 Zero Dependencies
+- 💻 Pure Frontend Architecture
+
+---
+
+# 🚀 Run Locally
+
+## Clone Repository
+
+```bash
 git clone https://github.com/rohitg00/k8sgames.git
+```
 
+## Enter Project
+
+```bash
 cd k8sgames
+```
 
+## Start Local Server
+
+```bash
 python3 -m http.server 8080
+```
 
-Open:
+## Open Browser
 
+```bash
 http://localhost:8080
-📂 Project Structure
+```
+
+---
+
+# 📂 Project Structure
+
+```bash
 k8sgames/
 ├── game/
 ├── draw/
-├── assets/
-├── resources/
-├── ui/
-├── systems/
 ├── incidents/
 ├── kubectl/
+├── resources/
+├── systems/
+├── ui/
+├── assets/
 └── index.html
-🌟 Why K8s Games?
+```
 
-✅ Learn Kubernetes visually
-✅ Practice SRE troubleshooting
-✅ Understand resource relationships
-✅ Improve kubectl skills
-✅ Build production-ready thinking
-✅ Design architectures in 3D
+---
 
-📜 License
+# 🌟 Why K8s Games?
+
+✅ Learn Kubernetes visually  
+✅ Practice SRE troubleshooting  
+✅ Understand cluster architecture  
+✅ Improve kubectl skills  
+✅ Simulate production failures  
+✅ Design infrastructure in 3D  
+
+---
+
+# 🔗 Quick Access
+
+<div align="center">
+
+## 🎮 Play the Game
+### https://k8sgames.com
+
+---
+
+## 🧩 Open K8s Draw
+### https://k8sgames.com/draw
+
+---
+
+## ⭐ GitHub Repository
+### https://github.com/rohitg00/k8sgames
+
+</div>
+
+---
+
+# 📜 License
 
 Licensed under the Apache-2.0 License.
