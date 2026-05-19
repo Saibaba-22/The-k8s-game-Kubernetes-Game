@@ -1,261 +1,83 @@
-⚡ K8s Games
-The Ultimate 3D Kubernetes Experience
-<div align="center">
-🎮 Learn Kubernetes Like Never Before
+K8s Games
+Learn Kubernetes by playing. Deploy pods, fix CrashLoopBackOff, type real kubectl commands — all in a 3D sim that runs in your browser.
 
-Deploy. Scale. Break. Fix. Survive.
-All inside a stunning real-time 3D Kubernetes world running directly in your browser.
+Play Now at k8sgames.com | K8s Draw — 3D Architecture Diagrams
 
-<br>
+K8s Games — 3D Kubernetes cluster simulation in the browser
 
-🔥 Real kubectl Commands
-🌐 Interactive 3D Clusters
-⚡ Production Incidents
-🧠 Learn DevOps Through Gameplay
+Get Started
+Visit k8sgames.com and pick a mode. No install, no signup, no build step.
 
-<br>
-🚀 PLAY NOW
+Just here to diagram? Go straight to k8sgames.com/draw — drag K8s resources onto a 3D canvas, draw connections, export YAML or PNG, and share via URL.
 
-k8sgames.com
+Or run locally:
 
-</div>
-🌌 What Is K8s Games?
+git clone https://github.com/rohitg00/k8sgames.git
+cd k8sgames
+python3 -m http.server 8080
+# Open http://localhost:8080
+How to Play
+Pick a game mode from the main menu
+Click resources from the left palette to place them in your cluster
+Drag resources to reposition them anywhere
+Click any resource to inspect it (status, YAML, kubectl describe)
+Right-click for actions (Scale, Delete, Logs, Restart)
+Press / to open the kubectl command bar
+Handle incidents as they appear — diagnose and fix like a real SRE
+Press ? anytime for help
+Game Modes
+Mode	What You Do
+Campaign	20 levels across 5 chapters. Learn pods, deployments, networking, storage, and production K8s
+Chaos	Endless survival. Incidents escalate until your cluster breaks. How long can you last?
+Sandbox	Free build. Design any cluster, get scored 0-100 by the Architecture Advisor
+Challenges	10 timed scenarios. Deploy apps, fix outages, race the clock
+K8s Draw (/draw)
+A 3D Kubernetes architecture whiteboard. Like Excalidraw but for K8s.
 
-K8s Games is an immersive browser-based Kubernetes simulator where you learn cloud-native infrastructure by actually operating a live cluster.
+Drag-drop 21 resource types onto a 3D canvas
+Draw connection lines between resources
+Double-click to rename any resource
+Auto-layout organizes by tier (Nodes, Workloads, Networking, Storage, RBAC)
+Export as YAML (with correct apiVersions) or PNG
+Share diagrams via URL — one-click copy, open anywhere
+Edit properties: name, namespace, labels, replicas
+Right-click to delete, Del key for selected
+No game logic, no incidents, no scoring — just diagramming.
 
-Not tutorials.
-Not slides.
-Not boring YAML walls.
+Controls
+Input	Action
+/	kubectl command bar
+?	Help / How to play
+Space	Pause / Resume
+M	Metrics dashboard
+Esc	Back to menu
+1-9	Quick-select resource
+Left-click	Select resource
+Left-drag	Move resource or rotate camera
+Right-click	Context menu
+Right-drag	Pan
+Scroll	Zoom
+Bottom toolbar: Auto-Align (K8s architecture layout) | Reset View | YAML (export cluster) | Help
 
-This is hands-on Kubernetes training turned into a cinematic interactive game.
+What's In It
+25 K8s resources — Pod, Deployment, ReplicaSet, StatefulSet, DaemonSet, Job, CronJob, Service, Ingress, NetworkPolicy, ConfigMap, Secret, PVC, PV, StorageClass, Node, Namespace, HPA, ResourceQuota, PodDisruptionBudget, ServiceAccount, Role, ClusterRole, RoleBinding, ClusterRoleBinding. Each has a unique 3D shape, color, and real K8s behavior.
 
-You will:
+29 incidents — OOMKilled, CrashLoopBackOff, ImagePullBackOff, node NotReady, DNS failures, PVC pending, API throttling, rollout stuck, certificate expiry, HPA flapping, and more. Investigate with kubectl describe/logs, then fix.
 
-⚔️ Deploy workloads into a live 3D cluster
-🔥 Fix production outages under pressure
-📈 Scale applications in real time
-🧠 Learn networking, storage, RBAC & autoscaling visually
-💻 Use real Kubernetes workflows with actual commands
-🚨 Survive chaos engineering disasters like a real SRE
-🎮 Game Modes
-🚀 Campaign Mode
+kubectl command bar — type real commands: get pods, describe deployment nginx, scale deployment nginx --replicas=3, logs pod-1, rollout status, drain node-1. Tab completion included.
 
-Master Kubernetes step-by-step through story-driven missions.
+Visual connections — animated lines show ownership chains (Deployment -> ReplicaSet -> Pod) and network routing (Service -> Pods) based on label selectors. Place a Service and pick which Deployment it connects to.
 
-Learn:
+Edit resources — click Edit on any resource to modify labels, replicas, selectors, and service types. Quick-connect buttons let you wire a Service to an existing Deployment in one click.
 
-Pods
-Deployments
-Services
-Networking
-Storage
-Scaling
-Production Operations
+Architecture Advisor — scores your cluster design across HA, security, scalability, cost, and 6 other categories.
 
-20 handcrafted levels across 5 chapters.
+40 achievements and a 30-level XP system from Novice to CKA-ready.
 
-☠️ Chaos Mode
+RBAC simulation — ServiceAccounts, Roles, ClusterRoles, RoleBindings, and ClusterRoleBindings with real rule definitions and wildcard detection.
 
-Everything breaks.
+Tech
+Three.js r152 + Tailwind CSS CDN + vanilla ES6 modules. No build step, no dependencies, no bundler. ~50K lines across 90+ files.
 
-Nodes fail.
-Pods crash.
-DNS dies.
-Certificates expire.
-
-How long can your cluster survive?
-
-🏗️ Sandbox Mode
-
-Build anything freely.
-
-Create complete Kubernetes architectures and receive an intelligent infrastructure score based on:
-
-High Availability
-Scalability
-Security
-Reliability
-Cost Optimization
-⏱️ Challenge Mode
-
-Timed Kubernetes incidents.
-
-Race against the clock to:
-
-Restore production
-Fix outages
-Deploy systems
-Recover infrastructure
-
-Perfect for interview prep & SRE practice.
-
-🌐 K8s Draw — 3D Kubernetes Whiteboard
-<div align="center">
-Like Excalidraw — Built for Kubernetes
-
-Open K8s Draw
-
-</div>
-
-Design cloud-native architectures visually inside a fully interactive 3D workspace.
-
-✨ Features
-🎨 Drag & drop Kubernetes resources
-🔗 Connect workloads visually
-⚡ Auto-layout architecture tiers
-📤 Export production-ready YAML
-🖼️ Export diagrams as PNG
-🌍 Share diagrams instantly via URL
-🧩 Edit labels, replicas, selectors & namespaces
-🔥 One-click Service ↔ Deployment linking
-
-Perfect for:
-
-System Design
-DevOps Documentation
-Kubernetes Learning
-Team Architecture Reviews
-Interview Preparation
-🔥 Real Kubernetes Incidents
-
-Train against realistic production failures inspired by real-world infrastructure problems.
-
-Included Scenarios
-💥 CrashLoopBackOff
-🧠 OOMKilled
-📦 ImagePullBackOff
-🌐 DNS Failures
-💾 PVC Pending
-⚠️ Node NotReady
-🔒 Expired Certificates
-📉 HPA Flapping
-🚦 Rollout Failures
-🐢 API Throttling
-
-And 20+ more disaster scenarios.
-
-Investigate using:
-
-kubectl get
-kubectl describe
-kubectl logs
-kubectl rollout
-kubectl scale
-kubectl drain
-💻 Built-In kubectl Terminal
-
-Use real Kubernetes-style commands directly inside the game.
-
-get pods
-describe deployment nginx
-logs pod-1
-scale deployment nginx --replicas=3
-rollout status deployment/api
-drain node-1
-⚡ Features
-Intelligent tab completion
-Realistic command outputs
-Resource discovery
-Live debugging workflows
-🧩 Kubernetes Resources Included
-
-Over 25 fully interactive Kubernetes resources:
-
-Pods
-Deployments
-ReplicaSets
-StatefulSets
-DaemonSets
-Services
-Ingress
-ConfigMaps
-Secrets
-PVC / PV
-StorageClass
-Namespaces
-HPA
-RBAC Resources
-Network Policies
-Resource Quotas
-PodDisruptionBudgets
-
-Every resource includes:
-
-Unique 3D visuals
-Real Kubernetes behavior
-Editable configurations
-Relationship mapping
-🔗 Intelligent Visual Infrastructure
-
-Watch Kubernetes relationships come alive visually.
-
-Animated Connections
-Deployment → ReplicaSet → Pod
-Service → Pod Routing
-Namespace Grouping
-Storage Attachments
-Network Flow
-
-Understand Kubernetes architecture instantly through visualization instead of memorizing YAML.
-
-🛡️ RBAC & Security Simulation
-
-Practice real Kubernetes security workflows with:
-
-ServiceAccounts
-Roles
-ClusterRoles
-RoleBindings
-ClusterRoleBindings
-
-Includes:
-
-Permission visualization
-Wildcard detection
-Access troubleshooting
-RBAC validation
-🏆 Progression System
-Level Up Your Kubernetes Skills
-🎖️ 40 Achievements
-📈 30 XP Levels
-🧠 Beginner → CKA Ready
-⚡ Skill progression through gameplay
-🎮 Controls
-Key	Action
-/	kubectl Terminal
-?	Help
-Space	Pause
-M	Metrics Dashboard
-Esc	Main Menu
-1-9	Quick Resource Select
-⚙️ Tech Stack
-
-Built with modern browser-native technologies:
-
-Three.js r152
-Tailwind CSS
-Vanilla ES6 Modules
-Zero dependencies
-No framework overhead
-No build step
-Fully browser-powered
-
-~50,000+ lines of interactive Kubernetes simulation.
-
-<div align="center">
-🚀 Ready to Become a Kubernetes Pro?
-Enter the Cluster.
-<br>
-🎮 PLAY NOW
-
-Launch K8s Games
-
-<br>
-🧱 DESIGN ARCHITECTURES
-
-Open K8s Draw
-
-</div>
-📜 License
-
+License
 Apache-2.0
