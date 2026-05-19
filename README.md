@@ -32,7 +32,6 @@
 |---|---|
 | 🎮 K8s Games | https://k8sgames.com |
 | 🧩 K8s Draw | https://k8sgames.com/draw |
-| 📦 GitHub Repo | https://github.com/rohitg00/k8sgames |
 
 ---
 
