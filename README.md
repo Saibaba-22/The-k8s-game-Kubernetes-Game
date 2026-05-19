@@ -1,147 +1,177 @@
-🚀 K8s Games
-Master Kubernetes Through an Immersive 3D Gaming Experience
+⚡ K8s Games
+The Ultimate 3D Kubernetes Experience
+<div align="center">
+🎮 Learn Kubernetes Like Never Before
 
-K8s Games
+Deploy. Scale. Break. Fix. Survive.
+All inside a stunning real-time 3D Kubernetes world running directly in your browser.
 
-Learn Kubernetes the fun way — deploy workloads, debug production failures, run real kubectl commands, and manage cloud-native infrastructure inside a fully interactive 3D cluster simulator that runs directly in your browser.
+<br>
 
-No setup. No signup. Just pure Kubernetes learning through gameplay.
+🔥 Real kubectl Commands
+🌐 Interactive 3D Clusters
+⚡ Production Incidents
+🧠 Learn DevOps Through Gameplay
 
-🌌 Why K8s Games?
+<br>
+🚀 PLAY NOW
 
-K8s Games transforms Kubernetes training into a hands-on visual adventure.
+k8sgames.com
 
-Instead of reading endless docs or memorizing commands, you:
+</div>
+🌌 What Is K8s Games?
 
-⚡ Deploy real Kubernetes resources visually
-🔥 Diagnose production incidents like an SRE
-🎮 Play through missions, chaos engineering, and timed challenges
-🧠 Learn networking, scaling, RBAC, storage, and troubleshooting naturally
-🖥️ Use real kubectl workflows inside the game
-🌐 Build and visualize complete architectures in 3D
+K8s Games is an immersive browser-based Kubernetes simulator where you learn cloud-native infrastructure by actually operating a live cluster.
 
-Whether you're a beginner learning Pods or an experienced engineer preparing for CKA/CKAD interviews, K8s Games gives you practical experience in a fun, modern environment.
+Not tutorials.
+Not slides.
+Not boring YAML walls.
 
-🎯 Play Instantly
-🌍 Browser Version
+This is hands-on Kubernetes training turned into a cinematic interactive game.
 
-Visit: 
+You will:
 
-Learn Kubernetes by playing. Deploy pods, fix CrashLoopBackOff, type real kubectl commands — all in a 3D sim that runs in your browser.
+⚔️ Deploy workloads into a live 3D cluster
+🔥 Fix production outages under pressure
+📈 Scale applications in real time
+🧠 Learn networking, storage, RBAC & autoscaling visually
+💻 Use real Kubernetes workflows with actual commands
+🚨 Survive chaos engineering disasters like a real SRE
+🎮 Game Modes
+🚀 Campaign Mode
 
-**[Play Now at k8sgames.com](https://k8sgames.com)** | **[K8s Draw — 3D Architecture Diagrams](https://k8sgames.com/draw)**
+Master Kubernetes step-by-step through story-driven missions.
 
-![K8s Games — 3D Kubernetes cluster simulation in the browser](screenshot.png)
+Learn:
 
-## Get Started
+Pods
+Deployments
+Services
+Networking
+Storage
+Scaling
+Production Operations
 
-Visit **[k8sgames.com](https://k8sgames.com)** and pick a mode. No install, no signup, no build step.
+20 handcrafted levels across 5 chapters.
 
-Just here to diagram? Go straight to **[k8sgames.com/draw](https://k8sgames.com/draw)** — drag K8s resources onto a 3D canvas, draw connections, export YAML or PNG, and share via URL.
+☠️ Chaos Mode
 
+Everything breaks.
 
-Launch K8s Games
+Nodes fail.
+Pods crash.
+DNS dies.
+Certificates expire.
 
-🧩 Kubernetes Architecture Whiteboard
+How long can your cluster survive?
 
-Design clusters visually in 3D:
+🏗️ Sandbox Mode
+
+Build anything freely.
+
+Create complete Kubernetes architectures and receive an intelligent infrastructure score based on:
+
+High Availability
+Scalability
+Security
+Reliability
+Cost Optimization
+⏱️ Challenge Mode
+
+Timed Kubernetes incidents.
+
+Race against the clock to:
+
+Restore production
+Fix outages
+Deploy systems
+Recover infrastructure
+
+Perfect for interview prep & SRE practice.
+
+🌐 K8s Draw — 3D Kubernetes Whiteboard
+<div align="center">
+Like Excalidraw — Built for Kubernetes
 
 Open K8s Draw
 
-⚡ Run Locally
-git clone https://github.com/rohitg00/k8sgames.git
-cd k8sgames
+</div>
 
-python3 -m http.server 8080
-# Open http://localhost:8080
-🎮 Game Modes
-Mode	Experience
-🚀 Campaign	Progress through 20 handcrafted levels covering Pods, Deployments, Services, Storage, Networking, and Production Operations
-☠️ Chaos Mode	Endless Kubernetes disaster survival. Failures escalate until your cluster collapses
-🏗️ Sandbox	Build any architecture freely and receive intelligent architecture scoring
-⏱️ Challenges	Timed real-world troubleshooting scenarios with operational objectives
-🧱 K8s Draw — 3D Kubernetes Diagram Builder
-Like Excalidraw — Built Specifically for Kubernetes
-
-Create production-ready Kubernetes architecture diagrams visually.
+Design cloud-native architectures visually inside a fully interactive 3D workspace.
 
 ✨ Features
-🎨 Drag & drop Kubernetes resources onto a 3D canvas
-🔗 Connect workloads, services, storage, and networking visually
-🧠 Smart auto-layout by infrastructure tier
-📤 Export production YAML instantly
+🎨 Drag & drop Kubernetes resources
+🔗 Connect workloads visually
+⚡ Auto-layout architecture tiers
+📤 Export production-ready YAML
 🖼️ Export diagrams as PNG
-🌍 Share complete architectures using a URL
-🏷️ Edit namespaces, labels, replicas, selectors, and metadata
-⚡ One-click Service ↔ Deployment connections
-🧩 21+ Kubernetes resource types supported
+🌍 Share diagrams instantly via URL
+🧩 Edit labels, replicas, selectors & namespaces
+🔥 One-click Service ↔ Deployment linking
 
 Perfect for:
 
-System design interviews
-DevOps documentation
-Architecture discussions
-Learning Kubernetes visually
-Team collaboration
+System Design
+DevOps Documentation
+Kubernetes Learning
+Team Architecture Reviews
+Interview Preparation
 🔥 Real Kubernetes Incidents
 
-Train using realistic production failures inspired by actual Kubernetes operations.
+Train against realistic production failures inspired by real-world infrastructure problems.
 
-Included Failure Scenarios
+Included Scenarios
 💥 CrashLoopBackOff
 🧠 OOMKilled
 📦 ImagePullBackOff
-🌐 DNS failures
+🌐 DNS Failures
 💾 PVC Pending
 ⚠️ Node NotReady
-🔒 Certificate expiry
-📉 HPA flapping
-🚦 Rollout failures
-🐢 API throttling
-🔥 And 20+ more production incidents
+🔒 Expired Certificates
+📉 HPA Flapping
+🚦 Rollout Failures
+🐢 API Throttling
+
+And 20+ more disaster scenarios.
 
 Investigate using:
 
 kubectl get
 kubectl describe
 kubectl logs
-rollout commands
-scaling commands
-node operations
-live metrics
+kubectl rollout
+kubectl scale
+kubectl drain
+💻 Built-In kubectl Terminal
 
-Just like real Kubernetes operations.
+Use real Kubernetes-style commands directly inside the game.
 
-⌨️ Built-In kubectl Terminal
-
-Use actual Kubernetes-style commands directly inside the game.
-
-Supported Examples
 get pods
 describe deployment nginx
 logs pod-1
 scale deployment nginx --replicas=3
 rollout status deployment/api
 drain node-1
-Features
-✅ Tab completion
-✅ Resource discovery
-✅ Realistic outputs
-✅ Interactive debugging workflows
-🎯 Core Features
-🧩 25 Kubernetes Resources
+⚡ Features
+Intelligent tab completion
+Realistic command outputs
+Resource discovery
+Live debugging workflows
+🧩 Kubernetes Resources Included
 
-Includes:
+Over 25 fully interactive Kubernetes resources:
 
 Pods
 Deployments
 ReplicaSets
 StatefulSets
 DaemonSets
-Jobs & CronJobs
-Services & Ingress
-ConfigMaps & Secrets
-PVC / PV / StorageClass
+Services
+Ingress
+ConfigMaps
+Secrets
+PVC / PV
+StorageClass
 Namespaces
 HPA
 RBAC Resources
@@ -149,27 +179,28 @@ Network Policies
 Resource Quotas
 PodDisruptionBudgets
 
-Every resource has:
+Every resource includes:
 
 Unique 3D visuals
 Real Kubernetes behavior
-Interactive editing
+Editable configurations
 Relationship mapping
-🔗 Intelligent Visual Connections
+🔗 Intelligent Visual Infrastructure
 
-Animated infrastructure relationships show:
+Watch Kubernetes relationships come alive visually.
 
-Deployment → ReplicaSet → Pod ownership
-Service → Pod routing
-Namespace grouping
-Storage attachments
-Networking flow
+Animated Connections
+Deployment → ReplicaSet → Pod
+Service → Pod Routing
+Namespace Grouping
+Storage Attachments
+Network Flow
 
-Understand Kubernetes visually instead of mentally mapping YAML.
+Understand Kubernetes architecture instantly through visualization instead of memorizing YAML.
 
-🛡️ RBAC Simulation
+🛡️ RBAC & Security Simulation
 
-Practice Kubernetes security concepts using:
+Practice real Kubernetes security workflows with:
 
 ServiceAccounts
 Roles
@@ -179,79 +210,52 @@ ClusterRoleBindings
 
 Includes:
 
-Rule visualization
+Permission visualization
 Wildcard detection
-Permission simulation
 Access troubleshooting
-🧠 Architecture Advisor
-
-Your cluster is automatically analyzed across:
-
-High Availability
-Scalability
-Security
-Reliability
-Cost Efficiency
-Resource Design
-Production Readiness
-
-Receive an overall infrastructure score from 0–100.
-
+RBAC validation
 🏆 Progression System
-🎖️ 40 unlockable achievements
-📈 30-level XP system
-🧠 Progress from beginner to Kubernetes expert
-🎯 Designed for CKA-style operational learning
+Level Up Your Kubernetes Skills
+🎖️ 40 Achievements
+📈 30 XP Levels
+🧠 Beginner → CKA Ready
+⚡ Skill progression through gameplay
 🎮 Controls
 Key	Action
-/	Open kubectl command bar
-?	Help & controls
-Space	Pause / Resume
-M	Metrics dashboard
-Esc	Back to menu
-1-9	Quick resource selection
-Mouse Controls
-Left Click → Select resource
-Left Drag → Move resource / rotate camera
-Right Click → Context menu
-Right Drag → Pan camera
-Scroll → Zoom
-⚙️ Technology Stack
+/	kubectl Terminal
+?	Help
+Space	Pause
+M	Metrics Dashboard
+Esc	Main Menu
+1-9	Quick Resource Select
+⚙️ Tech Stack
 
-Built using modern browser-native technologies:
+Built with modern browser-native technologies:
 
 Three.js r152
 Tailwind CSS
 Vanilla ES6 Modules
-No frameworks
-No bundlers
+Zero dependencies
+No framework overhead
 No build step
-Lightweight architecture
-~50,000+ lines across 90+ files
+Fully browser-powered
 
-Runs entirely in the browser.
+~50,000+ lines of interactive Kubernetes simulation.
 
-🌟 Who Is This For?
-Perfect For
-Kubernetes beginners
-DevOps engineers
-Cloud engineers
-SREs
-Platform engineers
-Students preparing for:
-CKA
-CKAD
-CKS
-Teams teaching Kubernetes internally
-🚀 Start Playing
-🎮 Launch Game
+<div align="center">
+🚀 Ready to Become a Kubernetes Pro?
+Enter the Cluster.
+<br>
+🎮 PLAY NOW
 
-Play K8s Games Now
+Launch K8s Games
 
-🧱 Open Architecture Builder
+<br>
+🧱 DESIGN ARCHITECTURES
 
 Open K8s Draw
 
+</div>
 📜 License
 
 Apache-2.0
