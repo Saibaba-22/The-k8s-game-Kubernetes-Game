@@ -13,8 +13,8 @@
     <img src="https://img.shields.io/badge/🧩_Open-K8s_Draw-7C3AED?style=for-the-badge" />
   </a>
 
-  <a href="https://github.com/rohitg00/k8sgames">
-    <img src="https://img.shields.io/github/stars/rohitg00/k8sgames?style=for-the-badge" />
+  <a href="https://github.com/Saibaba-22/The-k8s-game-Kubernetes-Game">
+    <img src="https://img.shields.io/github/stars/saibaba-22/The-k8s-game-Kubernetes-Game?style=for-the-badge" />
   </a>
 </p>
 
@@ -238,7 +238,7 @@ Get instant feedback like a real architecture review.
 ## Clone Repository
 
 ```bash
-git clone https://github.com/rohitg00/k8sgames.git
+git clone https://github.com/saibaba-22/The-k8s-game-Kubernetes-Game.git
 ```
 
 ## Enter Project
@@ -304,7 +304,7 @@ k8sgames/
 ---
 
 ## ⭐ GitHub Repository
-### https://github.com/rohitg00/k8sgames
+### https://github.com/saibaba-22/The-k8s-game-Kubernetes-Game
 
 </div>
 
